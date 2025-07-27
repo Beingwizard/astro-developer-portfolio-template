@@ -1,64 +1,39 @@
 ---
 import { Code } from 'astro:components';
-
-const code = `Community Copilot {
+const code = `Flexing {
     name: Lakshit Pant;
-    skills: Bluffing around with code;
-    interests: Community & Initiatives, Advocacy with no bs, Experimentation with everything;
+    skills: Bluffing around;
+    interests: Community, Programs, Products, and People;
 };
 
-interface TechStack {
-    devOps: string[];
-    backend: string[];
-   frontend: string[];
+interface Stack {
+    devOps: Azure DevOps, GitHub Actions, Docker;
+    design: figma, Canva, Framer;
+    frontend: React, JavaScript, TailwindCSS, Astro;
+    CX: Program & People Management, Community & Stakeholder Management, Go-to-market Strategy, Social Media Planning, Blogging, User Experience (UX);
 };
 
-type ContactType = 'github' | 'twitter' | 'linkedIn' | 'email';
+// Experience
+const me: Program Manager, From: 'Apr'24 - July'25',
+    company: 'Microsoft', location: 'Bangalore', ,
+    achievements: [
+        • Led Gold Microsoft Learn Student Ambassadors Program in India,
+        • Managed Microsoft MVP & RD Program,
+        • Built developer partnerships & advocacy across India,
+        • Founded MVP Mentorship Circle,
+        • Supported Microsoft SmBs, Startups, MS Reactor, & stakeholders,
+    ],
 
-const techStack: TechStack = {
-    devOps: [
-        'GitHub',
-        'Cloudflare',
-        'Docker'
+    
+const me: Technical Program Manager, From: 'Nov'21 - Mar'24',
+    company: 'Reskilll', location: 'Delhi',
+    achievements: [
+        • Microsoft Azure Dev Community from 30 to 150+ cities with 2M+ devs,
+        • Meta XR Fellowship, 100+ XR devs onboarded + 57+ XR open-source orgs,
+        • Delivered 200+ hackathons, 2x GTM targets,
+        • Managed flagship Microsoft programs, 40%+ engagement,
+        • Consulted 12+ enterprises, including Adobe, Intel, and more,
     ],
-    frontend: [
-        'React',
-        'JavaScript',
-        'TailwindCSS',
-        'Astro',
-        'Ionic',
-        'Stencil',
-        'SCSS',
-        'Markdown',
-        'WordPress'
-    ],
-    backend: [
-        'Supabase',
-        'Node.js',
-        'PostgreSQL',
-        'MySQL',
-        'S3 Storage',
-        'Resend'
-    ]
-};
-
-// Developer profile
-const me: Developer = {
-    name: 'Lakshit Pant',
-    skills: [
-        ...techStack.devOps,
-        ...techStack.backend,
-        ...techStack.frontend,
-        ...techStack.design,
-        ...techStack.CX
-    ],
-    interests: [
-        'Program Management',
-        'Linux',
-        'Performance',
-        'Self-Hosting',
-        'Networking'
-    ]
 };
 
 // Contact function

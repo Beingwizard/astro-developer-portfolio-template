@@ -1,0 +1,211 @@
+---
+interface Speaking {
+    name: string;
+    description: string;
+    date: string;
+    tags?: string[];
+    link: {
+        url: string;
+        title?: string;
+    };
+};
+
+const speaking: Speaking[] = [{
+    name: 'Linux Sprint Series',
+    description: 'Linux Commands & building a CRON job with Linux',
+    date: '2 Sept, 2023',
+    tags: ['linux', 'cron', 'cybersecurity'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_linux-cybersecurity-networkscanning-activity-7103335024619339776-98R0',
+        title: 'View Session'
+    }
+}, {
+    name: 'Crafting Git Series',
+    description: 'Getting started with Git',
+    date: '9 Sept 2023',
+    tags: ['git', 'version-control'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_git-versioncontrol-softwaredevelopment-activity-7106265150176788481-t4aA',
+        title: 'View Session'
+    }
+}, {
+    name: 'HotPatch In Virtual Machines',
+    description: 'Securing your VMs & optimizing Azure VMs',
+    date: '28 Feb 2023',
+    tags: ['azure', 'virtual-machines', 'security'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_hotpatching-is-a-new-way-to-install-updates-activity-7036254840280203264-0AEu',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure Learning Series',
+    description: 'Building foundations on Microsoft Azure',
+    date: '24 May 2023',
+    tags: ['azure', 'cloud', 'learning'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_azurelearningseries-microsoftazure-cloudcomputing-activity-7066336235551625217-9GXX',
+        title: 'View Session'
+    }
+}, {
+    name: 'HackAIthon, Banasthali Vidyapeeth',
+    description: 'Hackathon best practices',
+    date: '20 Aug 2023',
+    tags: ['hackathon', 'ai', 'mentorship'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_hackaithon-banasthalividyapeeth-ai-activity-7092829612539310081-h5Q8',
+        title: 'View Session'
+    }
+}, {
+    name: 'OSI Layers, and Usecases',
+    description: 'Networking: A world that runs everything',
+    date: '16 May 2022',
+    tags: ['networking', 'infrastructure'],
+    link: {
+        url: 'https://www.linkedin.com/posts/wizardlocks_community-networking-developer-activity-6931702739286536192-m4vI',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure Build Bootcamp, Ambala',
+    description: 'AZ 900 Bootcamp',
+    date: '11 Aug 2023',
+    tags: ['azure', 'certification', 'az-900'],
+    link: {
+        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7095792054307368960',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure Learning Series',
+    description: 'Getting started with Microsoft Azure',
+    date: '21 May 2023',
+    tags: ['azure', 'cloud', 'learning'],
+    link: {
+        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7063853513067421696',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure Developer Day, Hisar',
+    description: 'Getting started with Microsoft Azure',
+    date: '27 March 2023',
+    tags: ['azure', 'cloud', 'developer'],
+    link: {
+        url: 'https://www.linkedin.com/posts/wizardlocks_team-community-reskilll-activity-6999015974666428416-fbDw',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure Developer Day, Jammu',
+    description: '3C\'s of success- College, Cloud & Community',
+    date: '16 Oct 2022',
+    tags: ['azure', 'community', 'cloud'],
+    link: {
+        url: 'https://www.linkedin.com/feed/update/urn:li:activity:6987479430017245184',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure Spot Virtual Machines',
+    description: 'Cost optimization in Azure',
+    date: '3 June 2022',
+    tags: ['azure', 'virtual-machines', 'cost-optimization'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_are-you-looking-for-ways-to-save-on-your-activity-7054619683718668288-nt6F',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure DevDay, Jamia',
+    description: 'AZ 900 Bootcamp',
+    date: '27 Mar 2023',
+    tags: ['azure', 'certification', 'az-900'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_we-are-thrilled-to-announce-the-successful-activity-7046118860483092480-GOwd',
+        title: 'View Session'
+    }
+}, {
+    name: 'Building the Basics with Cloud',
+    description: 'Linux, networking, databases',
+    date: '31 Jan 2023',
+    tags: ['linux', 'networking', 'databases', 'cloud'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_cloud-azure-learning-activity-7025818667967758336-CY_p',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure Virtual Machines',
+    description: 'Azure VMs',
+    date: '15 Jan 2023',
+    tags: ['azure', 'virtual-machines'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_azure-virtualmachines-hotpatch-activity-7019668601297080320-oAj8',
+        title: 'View Session'
+    }
+}, {
+    name: 'Exposing Linux on Docker',
+    description: 'Docker',
+    date: '30 Sept 2023',
+    tags: ['linux', 'docker', 'containers'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_discord-microsoftazure-azure-activity-6980855775543926784-mtnQ',
+        title: 'View Session'
+    }
+}, {
+    name: 'Azure VM',
+    description: 'Azure VMs',
+    date: '24 Sept 2023',
+    tags: ['azure', 'virtual-machines'],
+    link: {
+        url: 'https://www.linkedin.com/posts/azdevindia_azuredeveloper-azuredevops-discord-activity-6978604067279245313-ABD7',
+        title: 'View Session'
+    }
+}, {
+    name: ' More updating soon',
+    description: 'Updating sessions of 2024 & 2025 soon, busy in building a startup',
+    date: '1 Jan 2025',
+    tags: ['procrastination', 'sleeping'],
+    link: {
+        url: 'https://www.linkedin.com/in/laxitpant',
+        title: 'View Session'
+    }
+}];
+
+// Sort speaking engagements by date, most recent first
+const sortedSpeaking = speaking.sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+});
+---
+
+<div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {sortedSpeaking.map(talk =>
+            <div class="flex flex-col justify-center items-start border border-gray-700 rounded-lg p-4 bg-black">
+                <h3 class="text-xl font-semibold text-white mb-2">
+                    {talk.name}
+                </h3>
+
+                <p class="text-gray-400 mb-2">
+                    {talk.description}
+                </p>
+
+                <p class="text-primary text-sm mb-3">
+                    {talk.date}
+                </p>
+
+                <div class="flex flex-wrap gap-2 mb-4">
+                    {talk.tags?.map(tag => (
+                        <span class="text-primary text-sm">#{tag}</span>
+                    ))}
+                </div>
+
+                <a
+                    href={talk.link.url}
+                    title={talk.link.title || talk.name}
+                    target="_blank"
+                    class="
+                        w-full px-4 py-2.5 mt-4 text-center
+                        border border-gray-600 rounded-lg
+                        hover:text-primary
+                        hover:border-primary
+                    ">
+                    View on LinkedIn
+                </a>
+            </div>
+        )}
+    </div>
+</div>
